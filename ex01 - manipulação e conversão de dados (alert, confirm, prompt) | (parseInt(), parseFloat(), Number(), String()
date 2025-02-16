@@ -29,6 +29,7 @@
     var n4 = Number(prompt('Digite ou número: '))
     var soma1 = n3+n4
     alert('A soma é: ' + soma1)
+    // Para converter para string -> String(nome da variavel) = String(n) ou n.toSString()
 
     //confirm('Está gostando de JS?')
     
