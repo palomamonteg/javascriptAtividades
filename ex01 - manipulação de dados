@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade</title>
+    <style>
+        *{
+            background-color: bisque;
+        }
+
+        h1 {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>me livrei da maldição!</p>
+
+<script>
+    var nome = prompt('Qual o seu nome?')
+    alert('É um prazer te conhecer, ' + nome + '!')
+    var n1 = parseInt(prompt('Digite um número: ')) // parseInt para inteiros e parseFloat para decimais
+    var n2 = parseInt(prompt('Digite outro número: '))
+    var soma = n1+n2
+    alert('A soma é: ' + soma)
+    var n3 = Number(prompt('Digite um número: ')) // ele converte para números interios ou decimais
+    var n4 = Number(prompt('Digite ou número: '))
+    var soma1 = n3+n4
+    alert('A soma é: ' + soma1)
+
+    //confirm('Está gostando de JS?')
+    
+</script>
+    
+</body>
+</html>
